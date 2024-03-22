@@ -1,0 +1,169 @@
+.shop {
+    width: 80%;
+    margin: 0 auto;
+}
+.alla{
+    width: 100%;
+    height: 100%;
+}
+html, body {
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+}
+
+.logo img {
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    /* padding: 0 20%; */
+}
+
+.logo {
+    height: 100px;
+    padding: 10px 0;
+    float: left;
+    width: 15%;
+}
+
+.menu_bar {
+    float: left;
+    padding-left: 30px;
+}
+
+ul {
+    height: 30px;
+    padding: 10px;
+}
+
+ul li {
+    list-style: none;
+    float: left;
+    width: 20%;
+    font-size: 20px;
+
+}
+
+ul li a {
+    text-decoration: none;
+    color: black;
+    font-style: normal;
+    font-weight: bold;
+    text-align: left;
+}
+
+.account {
+    width: 30%;
+    float: left;
+    text-align: left;
+    padding-top: 25px;
+}
+
+.acc,
+.cart {
+    width: 40%;
+    height: 30px;
+    float: left;
+
+
+}
+
+i svg {
+    width: 30px;
+    height: 30px;
+    float: left;
+
+}
+
+.cart a,
+.acc a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    height: 30px;
+    float: left;
+    width: 45%;
+    padding-top: 5px;
+}
+
+.cart i,
+.acc i {
+    width: 50%;
+    float: left;
+    padding-left: 15px;
+    width: 25%;
+}
+
+
+
+.logo img {
+    height: 100px;
+}
+
+.logo {
+    height: 100px;
+    padding: 10px 0;
+    float: left;
+}
+
+.menu_bar {
+    width: 50%;
+    float: left;
+}
+
+ul {
+    height: 30px;
+    padding: 10px;
+}
+
+ul li {
+    list-style: none;
+    float: left;
+    width: 25%;
+    font-size: 20px;
+
+}
+
+ul li a {
+    text-decoration: none;
+    color: black;
+    font-style: normal;
+    font-weight: bold;
+    text-align: left;
+}
+
+
+
+
+i svg {
+    width: 30px;
+    height: 30px;
+    float: left;
+
+}
+
+.cart a,.acc a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    height: 30px;
+    float: left;
+    width: 45%;
+    padding-top: 5px;
+}
+
+.cart i,
+.acc i {
+    width: 50%;
+    float: left;
+    padding-left: 15px;
+    width: 25%;
+}
+
+
+.header {
+    background-color: rgb(248, 248, 248);
+    border-color: rgb(231, 231, 231);
+    position: fixed;
+    z-index: 99;
+}
+
