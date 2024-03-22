@@ -22,7 +22,7 @@ html, body {
     height: 100px;
     padding: 10px 0;
     float: left;
-    width: 16%;
+    width: 13%;
 }
 
 .menu_bar {
@@ -48,11 +48,11 @@ ul li a {
     color: black;
     font-style: normal;
     font-weight: bold;
-    text-align: left;
+    text-align: center;
 }
 
 .account {
-    width: 30%;
+    width: 27%;
     float: right;
     text-align: left;
     padding-top: 25px;
@@ -60,7 +60,7 @@ ul li a {
 
 .acc,
 .cart {
-    width: 40%;
+    width: 45%;
     height: 40px;
     float: left;
 }
@@ -99,18 +99,19 @@ i svg {
 
 .logo {
     height: 100px;
-    padding: 10px 0;
+    padding: 4px 0;
     float: left;
 }
 
 .menu_bar {
-    width: 50%;
+    width: 57%;
     float: left;
 }
 
 ul {
     height: 30px;
-    padding: 10px;
+    /* padding: 0px; */
+    padding-top: 25px;
 }
 
 ul li {
@@ -118,7 +119,7 @@ ul li {
     float: left;
     width: 25%;
     font-size: 20px;
-
+    text-align: center;
 }
 ul li  :hover,.cart a:hover,.acc a:hover{
     color: orangered;
@@ -127,10 +128,9 @@ ul li  :hover,.cart a:hover,.acc a:hover{
 
 
 i svg {
-    width: 30px;
-    height: 30px;
+    width: 22px;
+    height: 25px;
     float: left;
-
 }
 
 .cart a,.acc a{
@@ -148,7 +148,10 @@ i svg {
     width: 50%;
     float: left;
     padding-left: 15px;
-    width: 40%;
+    padding-top: 5px;
+    /* height: 30px; */
+    width: 35%;
+    /* height: 30px; */
 }
 
 
@@ -157,7 +160,28 @@ i svg {
     border-color: rgb(231, 231, 231);
     position: fixed;
     z-index: 99;
-    width: 1300px;
-    box-shadow: 2px 2px 2px 2px orangered ;
+    height: 120px;
+    width: 1350px;
+    box-shadow: 2px 2px 2px 2px orangered;
 }
 
+.search{
+  float: right;
+}
+#form1{
+    width: 300px;
+    border-radius: 20px;
+}
+.fa-magnifying-glass{
+    position: absolute;
+    top: 5px;
+    right: 5px;
+
+}
+.input-group{ 
+    justify-content: flex-end;
+}
+.acc i svg , .cart i svg {
+    width: 30px;
+    height: 30px;
+}
