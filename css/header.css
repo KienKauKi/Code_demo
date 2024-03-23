@@ -160,7 +160,7 @@ i svg {
     border-color: rgb(231, 231, 231);
     /* position: fixed; */
     /* z-index: 99; */
-    height: 120px;
+    height: 150px;
     width: 1350px;
     box-shadow: 2px 2px 2px 2px orangered;
 }
@@ -178,8 +178,9 @@ i svg {
     right: 5px;
 
 }
-.input-group{ 
+.input-group{
     justify-content: flex-end;
+    bottom: -25px;
 }
 .acc i svg , .cart i svg {
     width: 30px;
